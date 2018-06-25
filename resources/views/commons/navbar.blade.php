@@ -12,7 +12,6 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-     ///
                      @if (Auth::check())
                         <li>
                             <a href="#">
@@ -29,6 +28,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('ranking.want') }}">Wantランキング</a></li>
+                                <li><a href="{{ route('ranking.have') }}">Haveランキング</a></li>
                             </ul>
                         </li>
 
